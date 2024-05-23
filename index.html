@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="http://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>AppDelClima</title>
+  </head>
+
+  <body onload="onload()">
+    <div id="container">
+      <div class="block">
+        <div id="location"></div>
+        <div id="date"></div>
+        Estado:
+        <div id="description"></div>
+      </div>
+
+      <div class="block">
+        <div class="information-container">
+          Temperature:
+          <div id="temperature"></div>
+        </div>
+        <div class="information-container">
+          Pressure:
+          <div id="pressure"></div>
+        </div>
+        <div class="information-container">
+          Humidity:
+          <div id="humidity"></div>
+        </div>
+      </div>
+    </div>
+    <span id="loader" class="loader"></span>
+
+    <script src="index.js"></script>
+  </body>
+</html>
